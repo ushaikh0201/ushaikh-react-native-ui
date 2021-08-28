@@ -1,6 +1,6 @@
 {
-  "name": "react-native-components",
-  "version": "4.2.0",
+  "name": "@ushaikh/react-native-ui",
+  "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Ushaikh Shaikh",
