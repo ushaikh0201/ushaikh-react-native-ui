@@ -1,15 +1,15 @@
 {
-  "name": "react-native-template",
+  "name": "react-native-components",
   "version": "4.2.0",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Ushaikh Shaikh",
   "description": "Inpired by react-native-ui-lib and fixed some issues",
-  "homepage": "https://github.com/ushaikh0201/react-native-template.git",
+  "homepage": "https://github.com/ushaikh0201/react-native-components.git",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ushaikh0201/react-native-template.git"
+    "url": "https://github.com/ushaikh0201/react-native-components.git"
   },
   "scripts": {
     "start": "watchman watch-del-all && export DEV_MODE=true && react-native start",
