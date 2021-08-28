@@ -1,0 +1,22 @@
+{
+  "name": "react-native-ui-lib",
+  "displayName": "rnuilib Demo",
+  "expo": {
+    "name": "rnuilib",
+    "slug": "rnuilib",
+    "privacy": "public",
+    "icon": "https://user-images.githubusercontent.com/1780255/107911939-34e98a80-6f66-11eb-91a6-1eb1b384e429.png",
+    "version": "1.0.0",
+    "entryPoint": "index.js",
+    "packagerOpts": {
+      "projectRoot": "."
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "description": "Demo project show case for react-native-ui-lib components",
+    "githubUrl": "https://github.com/wix/react-native-ui-lib"
+  }
+}
