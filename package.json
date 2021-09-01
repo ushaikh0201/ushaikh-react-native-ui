@@ -1,6 +1,6 @@
 {
   "name": "@ushaikh/react-native-ui",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Ushaikh Shaikh",
@@ -12,7 +12,7 @@
     "url": "https://github.com/ushaikh0201/react-native-components.git"
   },
   "scripts": {
-    "start": "watchman watch-del-all && export DEV_MODE=true && react-native start",
+    "start": "set DEV_MODE=true && react-native start",
     "start-ios": "node ./scripts/cliStuff.js",
     "ios": "react-native run-ios",
     "iPad": "react-native run-ios --simulator='iPad Pro (9.7 inch)'",
