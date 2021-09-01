@@ -68,3 +68,7 @@ package-lock.json
 /ios/Podfile.lock
 expoDemo/ios/Pods
 
+generatedTypes/
+typings/
+android/
+ios/
