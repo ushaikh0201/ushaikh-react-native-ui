@@ -1,6 +1,5 @@
 example/
 docs/
-node_modules/
 .npmignore
 .watchmanconfig
 
@@ -42,7 +41,6 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules
 jspm_packages
 
 # Optional npm cache directory
@@ -234,7 +232,8 @@ expoDemo/
 uilib-docs/
 markdowns/
 .babelrc
-# typings/
+#typings/
+generatedTypes/
 # eslint-rules/
 scripts/
 demo-app.component.js
