@@ -130,7 +130,8 @@
       "/node_modules/",
       "/typings/",
       "/expoDemo/",
-      "/uilib-docs/"
+      "/uilib-docs/",
+      "*.js"
     ],
     "setupFiles": [
       "./jest-setup.js"

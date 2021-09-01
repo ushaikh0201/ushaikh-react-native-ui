@@ -1,2 +1,6 @@
 # specific for windows script files
 *.bat text eol=crlf
+
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
