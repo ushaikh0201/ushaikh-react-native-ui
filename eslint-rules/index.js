@@ -22,6 +22,7 @@ module.exports = {
     'assets-deprecation_error': require('./lib/rules/assets-deprecation'),
     'typography-deprecation_error': require('./lib/rules/typography-deprecation'),
     'function-deprecation_error': require('./lib/rules/function-deprecation'),
-    'prop-value-shape-deprecation_error': require('./lib/rules/prop-value-shape-deprecation')
+    'prop-value-shape-deprecation_error': require('./lib/rules/prop-value-shape-deprecation'),
+    'linebreak-style': ['error', 'windows']
   }
 };
