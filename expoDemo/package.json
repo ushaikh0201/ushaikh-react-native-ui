@@ -1,11 +1,11 @@
 {
   "scripts": {
+    "start": "expo start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "start": "react-native start --projectRoot='.'",
+    "rn": "react-native start --projectRoot='.'",
     "test": "jest",
-    "expo": "expo start",
     "updatelink": "rimraf ./node_modules/@ushaikh && npm link @ushaikh/react-native-ui"
   },
   "dependencies": {
@@ -29,7 +29,8 @@
     "react-native-ui-lib": "snapshot",
     "react-native-unimodules": "~0.12.0",
     "react-native-web": "~0.13.12",
-    "unicorn-demo-app": "snapshot"
+    "unicorn-demo-app": "snapshot",
+    "@ushaikh/react-native-ui": "file:../"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
