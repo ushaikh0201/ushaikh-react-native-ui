@@ -1,4 +1,4 @@
-import {Assets} from 'react-native-ui-lib';
+import {Assets} from '@ushaikh/react-native-ui';
 
 Assets.loadAssetsGroup('', {
   chevronRight: require('./chevronRight.png'),

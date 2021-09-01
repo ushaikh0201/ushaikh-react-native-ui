@@ -5,7 +5,8 @@
     "web": "expo start --web",
     "start": "react-native start --projectRoot='.'",
     "test": "jest",
-    "expo": "expo start"
+    "expo": "expo start",
+    "updatelink": "rimraf ./node_modules/@ushaikh && npm link @ushaikh/react-native-ui"
   },
   "dependencies": {
     "@react-native-community/blur": "^3.4.1",

@@ -1,15 +1,15 @@
 {
   "name": "@ushaikh/react-native-ui",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Ushaikh Shaikh",
   "description": "Inpired by react-native-ui-lib and fixed some issues",
-  "homepage": "https://github.com/ushaikh0201/react-native-components.git",
+  "homepage": "https://github.com/ushaikh0201/ushaikh-react-native-ui.git",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ushaikh0201/react-native-components.git"
+    "url": "https://github.com/ushaikh0201/ushaikh-react-native-ui.git"
   },
   "scripts": {
     "start": "set DEV_MODE=true && react-native start",
@@ -41,7 +41,8 @@
     "release": "node ./scripts/release.js",
     "jenkinsRelease": "node ./scripts/jenkinsRelease.js",
     "build:ts": "rm -rf dist-ts && ./scripts/build-ts.sh",
-    "build:typings": "rm -rf ./typings && ./scripts/build-typings.sh && tsc --emitDeclarationOnly"
+    "build:typings": "rm -rf ./typings && ./scripts/build-typings.sh && tsc --emitDeclarationOnly",
+    "publish":"npm publish --access public"
   },
   "dependencies": {
     "babel-plugin-transform-inline-environment-variables": "^0.0.2",

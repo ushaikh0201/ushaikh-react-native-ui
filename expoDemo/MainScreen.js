@@ -1,6 +1,6 @@
 import React, {useCallback} from 'react';
 import {SectionList, StyleSheet} from 'react-native';
-import {Colors, View, Text, TouchableOpacity, Spacings, Image, Assets, Incubator} from 'react-native-ui-lib';
+import {Colors, View, Text, TouchableOpacity, Spacings, Image, Assets, Incubator} from '@ushaikh/react-native-ui';
 import {menuStructure} from 'unicorn-demo-app';
 import _ from 'lodash';
 import fuzzysearch from 'fuzzysearch';
