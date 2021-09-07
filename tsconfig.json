@@ -20,7 +20,7 @@
     "declarationDir": "./generatedTypes",
     "baseUrl": ".",
     "paths": {
-      "ushaikh-react-native-ui": ["index.d.ts"],
+      "react-native-ui-lib": ["index.d.ts"],
       "commons": ["./src/commons"],
       "helpers": ["./src/helpers"],
       "hooks": ["./src/hooks"],

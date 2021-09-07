@@ -1,17 +1,16 @@
 {
-  "_from": "@ushaikh/react-native-ui",
-  "_id": "@ushaikh/react-native-ui@1.1.0",
+  "_from": "react-native-ui-lib",
+  "_id": "react-native-ui-lib@5.30.0",
   "_inBundle": false,
-  "_integrity": "sha512-1+9tmklqDCet1gJSAhlv/TvUTjAZDLL9PvJVF3YytEa9V6qrjE4oNONM0HceYk7IFM+lg3Yj+luB57On8AcBiQ==",
-  "_location": "/@ushaikh/react-native-ui",
+  "_integrity": "sha512-c+2zlw1cG4F+wpGg3EaHl4fT6e0K+Ewg4KKrXP6fpTaAZkFQS/Dq6FfkMcpKCsH+zVfSmFChySGrVGQ07P0Ayw==",
+  "_location": "/react-native-ui-lib",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "@ushaikh/react-native-ui",
-    "name": "@ushaikh/react-native-ui",
-    "escapedName": "@ushaikh%2freact-native-ui",
-    "scope": "@ushaikh",
+    "raw": "react-native-ui-lib",
+    "name": "react-native-ui-lib",
+    "escapedName": "react-native-ui-lib",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -20,15 +19,16 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@ushaikh/react-native-ui/-/react-native-ui-1.0.0.tgz",
-  "_shasum": "e930e02baa0ba79225a3289ef9de7ca6d66ff1c1",
-  "_spec": "@ushaikh/react-native-ui",
-  "_where": "D:\\Clients\\Upworks\\Shailesh - Nepal\\mobile-app\\astro-final-app",
+  "_resolved": "https://registry.npmjs.org/react-native-ui-lib/-/react-native-ui-lib-5.30.0.tgz",
+  "_shasum": "29f0f0ad5df0e6d12eb39eea7cbcdd0b23898319",
+  "_spec": "react-native-ui-lib",
+  "_where": "D:\\Clients\\Upworks\\Shailesh - Nepal\\mobile-app\\temp",
   "author": {
-    "name": "Ushaikh Shaikh"
+    "name": "Ethan Sharabi",
+    "email": "ethan.shar@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/ushaikh0201/react-native-components/issues"
+    "url": "https://github.com/wix/react-native-ui-lib/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -48,7 +48,7 @@
     "url-parse": "^1.2.0"
   },
   "deprecated": false,
-  "description": "Inpired by react-native-ui-lib and fixed some issues",
+  "description": "<p align=\"center\">      <img src=\"https://user-images.githubusercontent.com/1780255/105469025-56759000-5ca0-11eb-993d-3568c1fd54f4.png\" height=\"250px\" style=\"display:block\"/> </p> <p align=\"center\">UI Toolset & Components Library for React Native</p> <p align=\"center\">      <img src=\"https://user-images.githubusercontent.com/1780255/105469340-bec47180-5ca0-11eb-8986-3eb986f884d9.jpg\"/> </p>",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.12.9",
@@ -103,7 +103,7 @@
     "shell-utils": "^1.0.10",
     "typescript": "4.3.2"
   },
-  "homepage": "https://github.com/ushaikh0201/react-native-components.git",
+  "homepage": "https://github.com/wix/react-native-ui-lib",
   "jest": {
     "preset": "react-native",
     "transformIgnorePatterns": [
@@ -125,16 +125,23 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "name": "@ushaikh/react-native-ui",
+  "name": "react-native-ui-lib",
   "peerDependencies": {
     "react": ">=17.0.1",
     "react-native": ">=0.64.1",
     "react-native-gesture-handler": ">=1.9.0",
-    "react-native-reanimated": ">=2.0.0"
+    "react-native-reanimated": ">=2.0.0",
+    "@react-native-community/blur": ">=3.4.1",
+    "@react-native-community/datetimepicker": "^2.1.0",
+    "@react-native-community/netinfo": "^5.6.2",
+    "@react-native-picker/picker": "^1.9.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ushaikh0201/react-native-components.git"
+    "url": "git+https://github.com/wix/react-native-ui-lib.git"
   },
   "scripts": {
     "android": "react-native run-android",
@@ -169,5 +176,5 @@
     "xcode": "xed ios"
   },
   "types": "index.d.ts",
-  "version": "1.0.0"
+  "version": "5.30.0"
 }
