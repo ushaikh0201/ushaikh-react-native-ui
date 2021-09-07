@@ -94,3 +94,5 @@ export {
   TagsInput, SharedTransition, Toast, WheelPickerDialog, Assets,
   BaseComponent, PureBaseComponent, UIComponent, forwardRef
 } from '../typings';
+
+export {default as UIColors} from './style/colors';
