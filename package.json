@@ -14,7 +14,7 @@
     "rawSpec": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#package",
     "saveSpec": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#package",
     "fetchSpec": "https://github.com/ushaikh0201/ushaikh-react-native-ui.git",
-    "gitCommittish": "npmjs"
+    "gitCommittish": "package"
   },
   "_requiredBy": [
     "/"
