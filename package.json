@@ -1,5 +1,5 @@
 {
-  "_from": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#npmjs",
+  "_from": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#package",
   "_id": "@ushaikh/react-native-ui@5.30.0",
   "_inBundle": false,
   "_integrity": "",
@@ -7,12 +7,12 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "@ushaikh/react-native-ui@git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#npmjs",
+    "raw": "@ushaikh/react-native-ui@git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#package",
     "name": "@ushaikh/react-native-ui",
     "escapedName": "@ushaikh%2freact-native-ui",
     "scope": "@ushaikh",
-    "rawSpec": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#npmjs",
-    "saveSpec": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#npmjs",
+    "rawSpec": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#package",
+    "saveSpec": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#package",
     "fetchSpec": "https://github.com/ushaikh0201/ushaikh-react-native-ui.git",
     "gitCommittish": "npmjs"
   },
@@ -21,7 +21,7 @@
   ],
   "_resolved": "git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#0c45d133d7a541cbb81c414e85faecc73ba1d57e",
   "_shasum": "29f0f0ad5df0e6d12eb39eea7cbcdd0b23898319",
-  "_spec": "@ushaikh/react-native-ui@git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#npmjs",
+  "_spec": "@ushaikh/react-native-ui@git+https://github.com/ushaikh0201/ushaikh-react-native-ui.git#package",
   "_where": "D:\\Clients\\Upworks\\Shailesh - Nepal\\mobile-app\\astro-final-app",
   "author": {
     "name": "Ethan Sharabi",
