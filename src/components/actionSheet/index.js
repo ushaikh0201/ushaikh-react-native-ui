@@ -76,7 +76,11 @@ class ActionSheet extends Component {
     /**
        * testID for e2e tests
        */
-    testID: _pt.string
+    testID: _pt.string,
+    /**
+     * Added component by Ushaikh on 31/10/2021
+     */
+    component: _pt.elementType
   };
   static displayName = 'ActionSheet';
 
@@ -213,7 +217,8 @@ class ActionSheet extends Component {
       dialogStyle,
       onModalDismissed,
       testID,
-      useSafeArea
+      useSafeArea,
+      component
     } = this.props;
 
     if (Constants.isIOS && useNativeIOS) {
@@ -221,7 +226,7 @@ class ActionSheet extends Component {
     }
 
     return <Dialog useSafeArea={useSafeArea} testID={testID} bottom centerH width="100%" containerStyle={[styles.dialog, dialogStyle]} visible={visible} onDismiss={onDismiss} onModalDismissed={onModalDismissed} panDirection={PanningProvider.Directions.DOWN}>
-        {this.renderSheet()}
+        {_.isFunction(component) ? component() : this.renderSheet()}
       </Dialog>;
   }
 
